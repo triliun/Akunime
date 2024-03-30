@@ -26,7 +26,7 @@ Akunime is an online platform that provides streaming and downloading services f
 - **Database:** MySQL or PostgreSQL
 - **Architecture:** Model-View-Controller (MVC)
 - **Frontend:** HTML, CSS, JavaScript
-- **User Authentication:** Sessions or JWT (JSON Web Tokens)
+- **User Authentication:** Sessions
 - **Interface Design:** Pure CSS
 
 ## Goal
