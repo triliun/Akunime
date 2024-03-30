@@ -1,0 +1,20 @@
+{
+    "name": "triliun/akunime",
+    "description": "Web Anime Streaming",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Triliun\\Akunime\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "triliun",
+            "email": "varrelaljabaar@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8"
+    }
+}
