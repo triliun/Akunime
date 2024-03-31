@@ -9,6 +9,10 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
+=======
+    -webkit-tap-highlight-color: transparent;
+>>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
 }
 
 
@@ -23,6 +27,7 @@
     --search-bar: #F2F2F2;
 }
 
+<<<<<<< HEAD
 body.dark{
     --body-color: #18191A;
     --nav-color: #242526;
@@ -31,4 +36,24 @@ body.dark{
     --title-color: #CCC;
     --text-color: #CCC;
     --search-bar: #242526;
+=======
+body.dark {
+    --body-color: #1f1d2b;
+    --nav-color: #1f1d2b;
+    --side-nav: #1f1d2b;
+    --nav-text: #FFF;
+    --title-color: #FFF;
+    --text-color: #FFF;
+    --search-bar: #353340;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 13px;
+}
+.h2 {
+    color: var(--title-color);
+    font-size: 20px;
+>>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
 }
