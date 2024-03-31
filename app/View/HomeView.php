@@ -6,24 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#242526" />
     <link rel="stylesheet" href="assets/css/home.css">
-<<<<<<< HEAD
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-=======
->>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
     <title>Akunime: Anime Streaming</title>
 </head>
 <body>
 <?php include 'layouts/Header.php'?>
-<<<<<<< HEAD
-
-<div style="max-width: 1000px;height: 200em; margin: 0em auto;padding: 13px;">
-<section>
-<h1 style="color: var(--title-color);font-size: 20px">Anime Terbaru</h1>
-=======
 <main class="main">
 <section>
 <h2 class="h2">Anime Terbaru</h2>
->>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
 <div class="card-body">
 <a href="#" class="card-link">
       <div class="card-content">
@@ -205,12 +194,6 @@
       </div>
         <h3 class="card-title">One Piece eta dyva vysav ydav dhaud uah djada dna ndjas jdaj</h3>
     </a>
-<<<<<<< HEAD
-</div>
-</section>
-</div>
-
-=======
 <a href="#" class="card-link">
       <div class="card-content">
         <img src="goblin-slayer.jpg" alt="One Piece" width="120" height="183" class="card-thumbnail">
@@ -244,7 +227,6 @@
 </div>
 </section>
 </main>
->>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
 <script src="script.js" async></script>
 </body>
 </html>

@@ -34,11 +34,7 @@ body.dark .navbar{
     position: relative;
     top: 0;
     left: 0;
-<<<<<<< HEAD
-    height: 70px;
-=======
     height: 60px;
->>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
     width: 100%;
     background-color: var(--nav-color);
     z-index: 100;
@@ -68,11 +64,7 @@ body.dark .navbar{
 
 .navbar .nav-bar .logo a{
     font-size: 25px;
-<<<<<<< HEAD
-    font-weight: 500;
-=======
     font-weight: bold;
->>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
     color: var(--nav-text);
     text-decoration: none;
 }
@@ -179,11 +171,7 @@ body.dark .navbar{
     display: flex;
     align-items: center;
     background-color: var(--nav-color);
-<<<<<<< HEAD
-    padding: 3px;
-=======
     padding: 2px;
->>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
     border-radius: 6px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
     opacity: 0;

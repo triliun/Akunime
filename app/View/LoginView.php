@@ -6,23 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#242526" />
     <link rel="stylesheet" href="assets/css/member.css">
-<<<<<<< HEAD
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-=======
->>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
     <title>Login - Akunime</title>
 </head>
 <body>
 <?php include 'layouts/Header.php'?>
 <section class="form-body">
   <h2 class="form-title">Login</h2>
-<<<<<<< HEAD
-  <form action="#">
-    <input type="text" class="input-form" placeholder="Enter your username">
-    <input type="email" class="input-form" placeholder="Enter your email">
-    <input type="password" class="input-form" placeholder="Enter your password">
-    <a href="#" class="form-link">Forgot password?</a>
-=======
   <form method="POST">
     <input type="text" name="username" id="username" class="input-form" placeholder="Enter your username" required>
     <input type="password" name="password" id="password" class="input-form" placeholder="Enter your password" required>
@@ -43,7 +32,6 @@
     echo $_SESSION['user_role'];  
     }
      ?>
->>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
     <button type="submit" class="input-form form-button">Login</button>
   </form>
   <div class="form-text">
@@ -52,8 +40,6 @@
     </span>
   </div>
 </section>
-<<<<<<< HEAD
-=======
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -103,6 +89,5 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 </script>
->>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
 <script src="script.js" async></script>
 </body>

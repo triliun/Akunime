@@ -15,10 +15,6 @@
                     <li><a href="<?= DOMAIN?>jadwal-rilis" class="nav-a">Jadwal Rilis</a></li>
                     <li><a href="<?= DOMAIN?>contact" class="nav-a">Contact Us</a></li>
                     <div class="btn-group">
-<<<<<<< HEAD
-                    <li><a href="<?= DOMAIN?>login" class="button">Login</a></li>
-                    <li><a href="<?= DOMAIN?>register" class="button">Register</a></li>
-=======
                 <?php if (isset($_SESSION['user_role']) && $_SESSION['user_role'] === 'Admin'): ?>
                     <li><a href="<?= DOMAIN?>dashboard" class="button">Admin</a></li>
                 <?php endif; ?>
@@ -28,7 +24,6 @@
                     <li><a href="<?= DOMAIN?>login" class="button">Login</a></li>
                     <li><a href="<?= DOMAIN?>register" class="button">Register</a></li>
                 <?php endif; ?>
->>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
                     </div>
                 </ul>
             </div>
@@ -60,10 +55,6 @@
                     </div>
                 </div>
             </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 986157cb9e663b03c1986e96f258827af0acb8fa
         </div>
     </nav>
 </header>
